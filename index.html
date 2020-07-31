@@ -3,11 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drag-n-drop-todo-list</title>
+    <title>Drag-n-drop-todos</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-    
+    <h1 class="main-title">Drag-n-Drop-Todos</h1>
+    <div class="dragbox-container">
+        <ul class="dragbox-container__list">
+            <li class="column-box">
+                <span class="column-box__header column-box__header--backlog">
+                    <h1 class="column-box__header-txt">Backlog</h1>
+                </span>
+                <ul class="column-box__list">
+                    <li class="column-box__item">item1</li>
+                    <li class="column-box__item">item2</li>
+                    <li class="column-box__item">item3</li>
+                    <div class="column-box__btn-container">
+                        <div class="column-box__add-btn">
+                            <span>+</span>
+                        </div>
+                        <div class="column-box__save-btn">
+                            <span>Save Item</span>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li class="column-box">
+                <span class="column-box__header column-box__header--progress">
+                    <h1 class="column-box__header-txt">In Progress</h1>
+                </span>
+                <ul class="column-box__list">
+                    <li class="column-box__item">item1</li>
+                    <li class="column-box__item">item2</li>
+                    <li class="column-box__item">item3</li>
+                    <div class="column-box__btn-container">
+                        <div class="column-box__add-btn">
+                            <span>+</span>
+                        </div>
+                        <div class="column-box__save-btn">
+                            <span>Save Item</span>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li class="column-box">
+                <span class="column-box__header column-box__header--complete">
+                    <h1 class="column-box__header-txt">Complete</h1>
+                </span> 
+                <ul class="column-box__list">
+                    <li class="column-box__item">item1</li>
+                    <li class="column-box__item">item2</li>
+                    <li class="column-box__item">item3</li>
+                    <div class="column-box__btn-container">
+                        <div class="column-box__add-btn">
+                            <span class="column-box__add-btn-txt">+</span>
+                        </div>
+                        <div class="column-box__save-btn">
+                            <span class="column-box__save-btn-txt">Save Item</span>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li class="column-box">
+                <span class="column-box__header column-box__header--hold">
+                    <h1 class="column-box__header-txt">On Hold</h1>
+                </span>
+                <ul class="column-box__list">
+                    <li class="column-box__item">item1</li>
+                    <li class="column-box__item">item2</li>
+                    <li class="column-box__item">item3</li>
+                    <div class="column-box__btn-container">
+                        <div class="column-box__add-btn">
+                            <span>+</span>
+                        </div>
+                        <div class="column-box__save-btn">
+                            <span>Save Item</span>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
